@@ -15,6 +15,14 @@ import java.util.*;
  * 代码生成器，根据数据表名称生成对应的Model、Mapper、Service、Controller简化开发。
  */
 public class CodeGenerator {
+    private static final String SERVICE_PACKAGE = "";
+    private static final String SERVICE_IMPL_PACKAGE = "";
+    private static final String CONTROLLER_PACKAGE = "";
+    private static final String MAPPER_INTERFACE_REFERENCE = "";
+    private static final String MODEL_PACKAGE = "";
+    private static final String MAPPER_PACKAGE = "";
+    private static final String BASE_PACKAGE = "";
+
     //JDBC配置，请修改为你项目的实际配置
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/test";
     private static final String JDBC_USERNAME = "root";
