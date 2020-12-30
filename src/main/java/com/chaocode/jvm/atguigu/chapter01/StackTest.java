@@ -1,4 +1,4 @@
-package com.chaocode.jvm.learn;
+package com.chaocode.jvm.atguigu.chapter01;
 
 /**
  * @author Liqc
