@@ -6,7 +6,7 @@ package java.lang;
  * @author Liqc
  * @date 2021/1/4 14:10
  */
-public class String {
+/*public class String {
 
     static {
         // 永远不会执行
@@ -15,11 +15,11 @@ public class String {
 
     public static void main(String[] args) {
         System.out.println("hello custom String class");
-        /*
+        *//*
         错误: 在类 java.lang.String 中找不到 main 方法, 请将 main 方法定义为:
            public static void main(String[] args)
         否则 JavaFX 应用程序类必须扩展javafx.application.Application
-         */
+         *//*
     }
 
-}
+}*/

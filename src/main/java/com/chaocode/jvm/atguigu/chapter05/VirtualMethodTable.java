@@ -25,7 +25,8 @@ class Donkey implements Friendly {
     }
 }
 
-class CockerSpaniel extends Monkey implements Friendly {
+// lemur 狐猴
+class Lemur extends Monkey implements Friendly {
     public void sayHello() {
         super.sayHello();
     }
