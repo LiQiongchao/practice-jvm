@@ -2,6 +2,12 @@ package com.chaocode.jvm.atguigu.chapter08.java1;
 
 /**
  * 测试-XX:UseTLAB参数是否开启的情况:默认情况是开启的
+ * 查看方式
+ *  - jps
+ *      查看程序的进程id
+ *  - jinfo -flag UseTLAB 进程id
+ *      打印UseTLAB是否开启
+ *
  *
  * @author shkstart  shkstart@126.com
  * @create 2020  16:16
