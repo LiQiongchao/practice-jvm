@@ -11,7 +11,7 @@ class StaticA {
         } catch (InterruptedException e) {
         }
         try {
-            Class.forName("com.atguigu.java1.StaticB");
+            Class.forName("com.chaocode.jvm.atguigu.jvm2.chapter03.java1.StaticB");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
@@ -25,7 +25,7 @@ class StaticB {
         } catch (InterruptedException e) {
         }
         try {
-            Class.forName("com.atguigu.java1.StaticA");
+            Class.forName("com.chaocode.jvm.atguigu.jvm2.chapter03.java1.StaticA");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
@@ -44,7 +44,7 @@ public class StaticDeadLockMain extends Thread {
     @Override
     public void run() {
         try {
-            Class.forName("com.atguigu.java1.Static" + flag);
+            Class.forName("com.chaocode.jvm.atguigu.jvm2.chapter03.java1.Static" + flag);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }

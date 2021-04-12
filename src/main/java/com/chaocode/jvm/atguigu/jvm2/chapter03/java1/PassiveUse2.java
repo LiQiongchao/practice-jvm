@@ -27,7 +27,7 @@ public class PassiveUse2 {
     @Test
     public void test3(){
         try {
-            Class clazz = ClassLoader.getSystemClassLoader().loadClass("com.atguigu.java1.Person");
+            Class clazz = ClassLoader.getSystemClassLoader().loadClass("com.chaocode.jvm.atguigu.jvm2.chapter03.java1.Person");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }

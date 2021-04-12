@@ -14,4 +14,9 @@ public class InitializationTest {
         number = 2;
         System.out.println("father static{}");
     }
+
+    public static void main(String[] args) {
+        // new时会初始化，会打印static中的代码
+        InitializationTest test = new InitializationTest();
+    }
 }

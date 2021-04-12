@@ -14,9 +14,9 @@ import java.util.Random;
 public class ActiveUse2 {
     @Test
     public void test1(){
-//        System.out.println(User.num);
-//        System.out.println(User.num1);
-        System.out.println(User.num2);
+//        System.out.println(User.num);// 会初始化
+//        System.out.println(User.num1);// 不会初始化
+        System.out.println(User.num2);// 会初始化
     }
 
     @Test
