@@ -1,4 +1,4 @@
-package com.atguigu.java1;
+package com.chaocode.jvm.atguigu.jvm2.chapter04.java1;
 
 /**
  * @author shkstart
@@ -6,7 +6,8 @@ package com.atguigu.java1;
  */
 public class Demo1 {
     public void hot() {
-        System.out.println("OldDemo1---> NewDemo1");
+        System.out.println("OldDemo1--->");
+//        System.out.println("NewDemo1--->");
     }
 
 }

@@ -1,4 +1,4 @@
-package com.atguigu.java1;
+package com.chaocode.jvm.atguigu.jvm2.chapter04.java1;
 
 import java.io.*;
 import java.nio.ByteBuffer;

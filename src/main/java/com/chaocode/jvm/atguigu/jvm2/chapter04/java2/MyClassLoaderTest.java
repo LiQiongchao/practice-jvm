@@ -1,4 +1,4 @@
-package com.atguigu.java2;
+package com.chaocode.jvm.atguigu.jvm2.chapter04.java2;
 
 /**
  * @author shkstart
@@ -6,10 +6,10 @@ package com.atguigu.java2;
  */
 public class MyClassLoaderTest {
     public static void main(String[] args) {
-        MyClassLoader loader = new MyClassLoader("d:/");
+        MyClassLoader loader = new MyClassLoader("D:\\WorkSpaces\\practise-projects\\practice-jvm\\src\\main\\java");
 
         try {
-            Class clazz = loader.loadClass("Demo1");
+            Class clazz = loader.loadClass("com.chaocode.jvm.atguigu.jvm2.chapter04.java1.Demo1");
             System.out.println("加载此类的类的加载器为：" + clazz.getClassLoader().getClass().getName());
 
             System.out.println("加载当前Demo1类的类的加载器的父类加载器为：" + clazz.getClassLoader().getParent().getClass().getName());
@@ -18,3 +18,12 @@ public class MyClassLoaderTest {
         }
     }
 }
+
+
+
+
+
+
+
+
+

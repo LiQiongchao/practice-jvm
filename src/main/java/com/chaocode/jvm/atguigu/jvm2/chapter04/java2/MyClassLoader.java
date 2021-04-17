@@ -1,4 +1,4 @@
-package com.atguigu.java2;
+package com.chaocode.jvm.atguigu.jvm2.chapter04.java2;
 
 import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;
@@ -62,7 +62,6 @@ public class MyClassLoader extends ClassLoader {
         }
 
         return null;
-
 
     }
 }

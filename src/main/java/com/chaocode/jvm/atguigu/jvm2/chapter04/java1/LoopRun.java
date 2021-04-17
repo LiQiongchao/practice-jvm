@@ -1,4 +1,4 @@
-package com.atguigu.java1;
+package com.chaocode.jvm.atguigu.jvm2.chapter04.java1;
 
 import java.lang.reflect.Method;
 
@@ -11,9 +11,9 @@ public class LoopRun {
         while (true) {
             try {
                 //1. 创建自定义类加载器的实例
-                MyClassLoader loader = new MyClassLoader("D:\\code\\workspace_idea5\\JVMDemo1\\chapter04\\src\\");
+                MyClassLoader loader = new MyClassLoader("D:\\WorkSpaces\\practise-projects\\practice-jvm\\src\\main\\java");
                 //2. 加载指定的类
-                Class clazz = loader.findClass("com.atguigu.java1.Demo1");
+                Class clazz = loader.findClass("com.chaocode.jvm.atguigu.jvm2.chapter04.java1.Demo1");
                 //3. 创建运行时类的实例
                 Object demo = clazz.newInstance();
                 //4. 获取运行时类中指定的方法
