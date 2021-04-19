@@ -1,4 +1,4 @@
-package com.atguigu.jmap;
+package com.chaocode.jvm.atguigu.jvm3.chapter02.jmap;
 
 import java.util.ArrayList;
 

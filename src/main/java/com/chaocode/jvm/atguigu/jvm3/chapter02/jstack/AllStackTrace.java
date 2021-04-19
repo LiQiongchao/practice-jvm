@@ -1,9 +1,11 @@
-package com.atguigu.jstack;
+package com.chaocode.jvm.atguigu.jvm3.chapter02.jstack;
 
 import java.util.Map;
 import java.util.Set;
 
 /**
+ * 手动实现打印堆栈信息
+ *
  * @author shkstart
  * @create 15:51
  */

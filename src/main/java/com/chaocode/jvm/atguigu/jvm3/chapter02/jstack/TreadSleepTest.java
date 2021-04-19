@@ -1,4 +1,4 @@
-package com.atguigu.jstack;
+package com.chaocode.jvm.atguigu.jvm3.chapter02.jstack;
 
 /**
  * 演示线程：TIMED_WAITING
