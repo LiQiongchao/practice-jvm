@@ -1,4 +1,4 @@
-package com.atguigu.jvisualvm;
+package com.chaocode.jvm.atguigu.jvm3.chapter03.jvisualvm;
 
 import java.util.ArrayList;
 import java.util.Random;

@@ -1,4 +1,4 @@
-package com.atguigu.mat;
+package com.chaocode.jvm.atguigu.jvm3.chapter03.mat;
 
 import java.util.ArrayList;
 import java.util.Random;

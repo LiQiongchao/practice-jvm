@@ -1,4 +1,4 @@
-package com.atguigu.jconsole;
+package com.chaocode.jvm.atguigu.jvm3.chapter03.jconsole;
 
 import java.util.Map;
 import java.util.Set;
