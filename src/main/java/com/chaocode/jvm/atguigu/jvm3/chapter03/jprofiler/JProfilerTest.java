@@ -1,4 +1,4 @@
-package com.atguigu.jprofiler;
+package com.chaocode.jvm.atguigu.jvm3.chapter03.jprofiler;
 
 import java.util.ArrayList;
 import java.util.HashMap;

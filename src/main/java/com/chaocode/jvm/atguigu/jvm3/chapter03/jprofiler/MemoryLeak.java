@@ -1,4 +1,4 @@
-package com.atguigu.jprofiler;
+package com.chaocode.jvm.atguigu.jvm3.chapter03.jprofiler;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -33,5 +33,5 @@ class Bean {
     int size = 10;
     String info = "hello,atguigu";
      ArrayList list = new ArrayList();
-//    static ArrayList list = new ArrayList();
+//    static ArrayList list = new ArrayList(); // 会有内存泄露问题，使用上一行代码解决
 }
