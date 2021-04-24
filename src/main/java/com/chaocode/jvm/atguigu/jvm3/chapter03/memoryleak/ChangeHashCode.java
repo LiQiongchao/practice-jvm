@@ -1,4 +1,4 @@
-package com.atguigu.memoryleak;
+package com.chaocode.jvm.atguigu.jvm3.chapter03.memoryleak;
 
 import java.util.HashSet;
 
@@ -17,8 +17,8 @@ public class ChangeHashCode {
         set.add(p1);
         set.add(p2);
 
-        p1.name = "CC";//导致了内存的泄漏
-        set.remove(p1); //删除失败
+        p1.name = "CC";//导致了内存的泄漏，因为p1的name值改变了，所以hash值也变了。
+        set.remove(p1); //删除失败，因为是根据p1改变后的hash值去删除的，对原有p1没有影响。
 
         System.out.println(set);
 
