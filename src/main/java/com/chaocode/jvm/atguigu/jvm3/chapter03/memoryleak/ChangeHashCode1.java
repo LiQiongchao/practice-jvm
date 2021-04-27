@@ -1,4 +1,4 @@
-package com.atguigu.memoryleak;
+package com.chaocode.jvm.atguigu.jvm3.chapter03.memoryleak;
 
 import java.util.HashSet;
 

@@ -1,4 +1,4 @@
-package com.atguigu.memoryleak;
+package com.chaocode.jvm.atguigu.jvm3.chapter03.memoryleak;
 
 import java.util.Arrays;
 import java.util.EmptyStackException;
@@ -20,7 +20,7 @@ public class Stack {
         ensureCapacity();
         elements[size++] = e;
     }
-    //存在内存泄漏
+    //存在内存泄漏，出栈时只移动了指针，没有移除对象，对象还存在于栈中。
 //    public Object pop() { //出栈
 //        if (size == 0)
 //            throw new EmptyStackException();
