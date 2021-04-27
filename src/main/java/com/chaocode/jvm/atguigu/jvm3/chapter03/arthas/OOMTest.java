@@ -1,4 +1,4 @@
-package com.atguigu.arthas;
+package com.chaocode.jvm.atguigu.jvm3.chapter03.arthas;
 
 import java.util.ArrayList;
 import java.util.Random;
